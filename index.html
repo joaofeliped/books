@@ -20,23 +20,27 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col s12 m6 l3">
-          <h1>SUPERO</h1>
-        </div>
+        <!-- <div class="col s12 m6 l3"> -->
+        <h1>SUPERO</h1>
+        <!-- </div> -->
 
-        <div class="col s12 m6 l3">
-          <input
-            id="inputSearch"
-            type="text"
-            autofocus
-            placeholder="Busque livros pelo titulo, autor ou ISBN"
-          />
-        </div>
-        <div class="col s12 m6 l3">
-          <button class="btn waves-effect waves-light" type="button">
-            Buscar
-          </button>
-        </div>
+        <!-- <div class="col s12 m6 l3"> -->
+        <input
+          id="inputSearch"
+          type="text"
+          autofocus
+          placeholder="Busque livros pelo titulo, autor ou ISBN"
+        />
+        <!-- </div>
+        <div class="col s12 m6 l3"> -->
+        <button
+          id="buttonSearch"
+          class="btn waves-effect waves-light"
+          type="button"
+        >
+          Buscar
+        </button>
+        <!-- </div> -->
       </div>
 
       <div class="row">
@@ -72,19 +76,7 @@
           <tbody id="tableBody"></tbody>
         </table>
 
-        <ul class="pagination">
-          <li class="disabled">
-            <a href="#!"><i class="material-icons">chevron_left</i></a>
-          </li>
-          <li class="active"><a href="#!">1</a></li>
-          <li class="waves-effect"><a href="#!">2</a></li>
-          <li class="waves-effect"><a href="#!">3</a></li>
-          <li class="waves-effect"><a href="#!">4</a></li>
-          <li class="waves-effect"><a href="#!">5</a></li>
-          <li class="waves-effect">
-            <a href="#!"><i class="material-icons">chevron_right</i></a>
-          </li>
-        </ul>
+        <ul id="pagination" class="center pagination"></ul>
       </div>
     </div>
     <script defer src="./js/script.js"></script>
