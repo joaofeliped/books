@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Detail</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="center">Detalhes do Livro</h1>
+
+      <div class="row">
+        <div class="input-field col s6">
+          Título:
+          <input disabled id="title" type="text" class="validate" />
+        </div>
+
+        <div class="input-field col s6">
+          Idioma:
+          <input disabled id="language" type="text" class="validate" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s6">
+          ISBN:
+          <input disabled id="isbn" type="text" class="validate" />
+        </div>
+
+        <div class="input-field col s6">
+          Largura:
+          <input disabled id="width" type="text" class="validate" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s6">
+          Autor:
+          <input disabled id="author" type="text" class="validate" />
+        </div>
+
+        <div class="input-field col s6">
+          Editora:
+          <input disabled id="editor" type="text" class="validate" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s6">
+          Ano:
+          <input disabled id="year" type="text" class="validate" />
+        </div>
+
+        <div class="input-field col s6">
+          Peso:
+          <input disabled id="weight" type="text" class="validate" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s6">
+          Comprimento:
+          <input disabled id="lenght" type="text" class="validate" />
+        </div>
+
+        <div class="input-field col s6">
+          Altura:
+          <input disabled id="height" type="text" class="validate" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s6">
+          <a href="/">Voltar</a>
+        </div>
+
+        <div class="input-field col s6">
+          <button id="deleteBook" class="btn red darken-2" type="button">
+            Deletar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/booksDetails.js"></script>
+  </body>
+</html>
